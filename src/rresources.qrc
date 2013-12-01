@@ -1,0 +1,15 @@
+<RCC>
+	<qresource prefix="/">
+		<file>icons/icon.svg</file>
+		<file>icons/go_previous.svg</file>
+		<file>icons/go_next.svg</file>
+		<file>icons/go_up.svg</file>
+		<file>icons/gohome.svg</file>
+		<file>icons/go_jump_locationbar.svg</file>
+		<file>icons/terminal.svg</file>
+		<file>icons/edit_copy.svg</file>
+		<file>icons/edit_cut.svg</file>
+		<file>icons/edit_delete.svg</file>
+		<file>icons/edit_paste.svg</file>
+	</qresource>
+</RCC>

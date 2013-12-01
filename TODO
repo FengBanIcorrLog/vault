@@ -1,0 +1,19 @@
+autorezise columns
+support hotkeys (ctrl-c, F2, backspace, alt-home, etc)
+support / ./ and ~ shortcuts
+align the file size vertically inside the row
+finish the icon support
+custom actions for filetypes/folder (thunar-style)
+... button to open a terminal inside the current folder (next to goto) 
+opening files Ü
+drag-n-drop
+favorite places
+remember the size of the columns in % to scale it properly
+free size indicator on the bottom (like in dolphin)
+when we click on the HDD icon in the address bar, actually goto /
+buttons on the address bar: (HDD /) (HOME ~) (DIR1) (DIR2)
+
+:: Plugins ::
+apng plugin
+plugins to show list of files for supported archives (or maybe navigate through archives?)
+

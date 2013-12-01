@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QextDirEditor</class>
+ <widget class="QWidget" name="QextDirEditor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>112</width>
+    <height>30</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QComboBox" name="comboBox">
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="toolButton">
+     <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="icon">
+      <iconset resource="rresources.qrc">
+       <normaloff>:/icons/go_jump_locationbar.svg</normaloff>:/icons/go_jump_locationbar.svg</iconset>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="termButton">
+     <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="icon">
+      <iconset resource="rresources.qrc">
+       <normaloff>:/icons/terminal.svg</normaloff>:/icons/terminal.svg</iconset>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="rresources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
