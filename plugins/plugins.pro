@@ -1,2 +1,2 @@
 TEMPLATE = subdirs
-SUBDIRS = qtsvgz_plugin
+SUBDIRS = qtsvgz

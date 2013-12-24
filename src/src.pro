@@ -3,10 +3,10 @@
 # -------------------------------------------------
 QT += network \
     svg
-TARGET = qtfileman
+TARGET = vault
 TEMPLATE = app
-INCLUDEPATH += ../plugins/qtsvgz_plugin
-LIBS += -L../plugins/qtsvgz_plugin \
+INCLUDEPATH += ../plugins/qtsvgz
+LIBS += -L../plugins/qtsvgz \
     -lsvgz
 SOURCES += main.cpp \
     mainwindow.cpp \

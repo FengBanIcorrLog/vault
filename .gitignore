@@ -1,9 +1,7 @@
 # C++ objects and libs
-
 *.slo
 *.lo
-*.o
-*.a
+*.[ado]
 *.la
 *.lai
 *.so
@@ -11,10 +9,12 @@
 *.dylib
 
 # Qt-es
-
 *.pro.user
 *.pro.user.*
 moc_*.cpp
 qrc_*.cpp
-Makefile
+*Makefile*
 *-build-*
+
+# Program executable
+vault

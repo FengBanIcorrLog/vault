@@ -22,7 +22,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
-    setWindowIcon(QIcon(":/icons/icon.svg"));
+    setWindowIcon(QIcon(":/icons/icon.png"));
 
     iconCopy = QIcon(":/icons/edit_copy.svg");
     iconCut = QIcon(":/icons/edit_cut.svg");
